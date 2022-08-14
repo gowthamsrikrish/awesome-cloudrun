@@ -1,0 +1,13 @@
+- name: Copilot deploy
+  # You may pin to the exact commit or the version.
+  # uses: fuji97/aws-ecs-copilot-deploy@3135fe0b52d8853171c899493da501130c3ef004
+  uses: fuji97/aws-ecs-copilot-deploy@v1.1
+  with:
+    # Environments to deploy
+    environments: 
+    # Workloads to deploy
+    workloads: 
+    # Bucket to upload CloudFormation template
+    bucket: # optional
+    # Set the deploy method (manual | automatic)
+    deploy_method: # optional, default is manual
